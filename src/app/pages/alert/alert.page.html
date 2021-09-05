@@ -1,5 +1,22 @@
 <app-header titulo="alerta"></app-header>
 
-<ion-content>
-
+<ion-content class="ion-padding">
+    <ion-button (click)="presentAlert()" expand="block">
+        Mostrar Alerta
+    </ion-button>
+    <ion-button (click)="presentAlertMultipleButtons()" expand="block">
+        Mostrar Alerta multi botones
+    </ion-button>
+    <ion-button (click)="presentAlertConfirm()" expand="block">
+        Mostrar Alerta confirmar
+    </ion-button>
+    <ion-button (click)="presentAlertPrompt()" expand="block">
+        Mostrar Alerta prompt
+    </ion-button>
+    <ion-button (click)="presentAlertRadio()" expand="block">
+        Mostrar Alerta radio
+    </ion-button>
+    <ion-button (click)="presentAlertCheckbox()" expand="block">
+        Mostrar Alerta check
+    </ion-button>
 </ion-content>
