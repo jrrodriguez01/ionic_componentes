@@ -15,12 +15,12 @@ export class InicioPage implements OnInit {
 
   componentes: Componente[] = [
     {
-      icon: 'american-football',
+      icon: 'american-football-outline',
       name: 'action sheet',
       redirectTo: '/action-sheet'
     },
     {
-      icon: 'alert-circle',
+      icon: 'alert-circle-outline',
       name: 'alerta',
       redirectTo: '/alert'
     },
@@ -33,6 +33,26 @@ export class InicioPage implements OnInit {
       icon: 'radio-button-off-outline',
       name: 'button',
       redirectTo: '/button'
+    },
+    {
+      icon: 'card-outline',
+      name: 'Cards',
+      redirectTo: '/card'
+    },
+    {
+      icon: 'checkmark-circle-outline',
+      name: 'Check',
+      redirectTo: '/check'
+    },
+    {
+      icon: 'calendar-outline',
+      name: 'DateTime',
+      redirectTo: '/date-time'
+    },
+    {
+      icon: 'car-outline',
+      name: 'Fab',
+      redirectTo: '/fab'
     }
   ];
 
